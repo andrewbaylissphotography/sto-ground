@@ -1,0 +1,29 @@
+Ctrl+Space "GenSendMessage HUD_Root FirePhasers $$ +trayExecBytray 6 0 $$ +trayexecbytray 6 1 $$ +trayexecbytray 6 2 $$ +trayexecbytray 6 3 $$ +trayexecbytray 6 4 $$ +trayexecbytray 6 5 $$ +trayexecbytray 6 6 $$ +trayexecbytray 6 7 $$ +trayexecbytray 6 8 $$ +trayexecbytray 6 9 $$ +power_exec Distribute_Shields"
+
+Shift+Space "+trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9"
+
+| ally heals
+F2 "TargetTeammate 1 $$ +trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$ +Power_Exec Distribute_Shields$$"
+F3 "TargetTeammate 2 $$ +trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$ +Power_Exec Distribute_Shields$$"
+F4 "TargetTeammate 3 $$ +trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$ +Power_Exec Distribute_Shields$$"
+F5 "TargetTeammate 4 $$ +trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$ +Power_Exec Distribute_Shields$$"
+
+| teamchat have heals
+Shift+F1 "team got any heals?"
+Shift+F2 "TargetTeammate 1 $$ Team $target, Here have some heals!"
+Shift+F3 "TargetTeammate 2 $$ Team $target, Here have some heals!"
+Shift+F4 "TargetTeammate 3 $$ Team $target, Here have some heals!"
+Shift+F5 "TargetTeammate 4 $$ Team $target, Here have some heals!"
+
+Multiply "GenSendMessage Inventory_Stackdelete_Root dialogok $$ Bagsort 2 1"
+
+| teamchat kill this
+` "Team My current target: $target. Destroy with prejudice // Mein aktuelles Ziel: $target. Mit Vorurteilen zu zerstören"
+
+Shift+x "+walk" ""
+
+| recruit message
+Y "tell @cababs91, Shift+Y UNFOUND recruit message"
+Shift+Y "zone Come and join us at UNFOUND. Sure the FED (Unfound) faction has Tier 5 in the following holdings: Starbase, Spire, Research Lab, K-13, Embassy, Dilithium Mine & Tier 3 Colony World and our KDF faction (House of Unfound) only has Teir 3 Starbase, Tier 1 in the following holdings: Spire, Embassy & Dilthium Mine, but we also have a TeamSpeak3, Discord, website, psyche shattering profanity, wanton chaos and actual fun... UNFOUND.NET"
+
+T "" ""
