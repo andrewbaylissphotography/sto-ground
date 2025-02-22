@@ -1,12 +1,67 @@
-Ctrl+Space "GenSendMessage HUD_Root FirePhasers $$ +trayExecBytray 6 0 $$ +trayexecbytray 6 1 $$ +trayexecbytray 6 2 $$ +trayexecbytray 6 3 $$ +trayexecbytray 6 4 $$ +trayexecbytray 6 5 $$ +trayexecbytray 6 6 $$ +trayexecbytray 6 7 $$ +trayexecbytray 6 8 $$ +trayexecbytray 6 9 $$ +power_exec Distribute_Shields"
+| Tray 1 - Default
+1 "+STOTrayExecByTray 0 0"
+2 "+STOTrayExecByTray 0 1"
+3 "+STOTrayExecByTray 0 2"
+4 "+STOTrayExecByTray 0 3"
+5 "+STOTrayExecByTray 0 4"
+6 "+STOTrayExecByTray 0 5"
+7 "+STOTrayExecByTray 0 6"
+8 "+STOTrayExecByTray 0 7"
+9 "+STOTrayExecByTray 0 8"
+0 "+STOTrayExecByTray 0 9"
 
-Shift+Space "+trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9"
+| Tray 2 - Default
+Ctrl+1 "+STOTrayExecByTray 1 0"
+Ctrl+2 "+STOTrayExecByTray 1 1"
+Ctrl+3 "+STOTrayExecByTray 1 2"
+Ctrl+4 "+STOTrayExecByTray 1 3"
+Ctrl+5 "+STOTrayExecByTray 1 4"
+Ctrl+6 "+STOTrayExecByTray 1 5"
+Ctrl+7 "+STOTrayExecByTray 1 6"
+Ctrl+8 "+STOTrayExecByTray 1 7"
+Ctrl+9 "+STOTrayExecByTray 1 8"
+Ctrl+0 "+STOTrayExecByTray 1 9"
 
-| ally heals
-F2 "TargetTeammate 1 $$ +trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$ +Power_Exec Distribute_Shields$$"
-F3 "TargetTeammate 2 $$ +trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$ +Power_Exec Distribute_Shields$$"
-F4 "TargetTeammate 3 $$ +trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$ +Power_Exec Distribute_Shields$$"
-F5 "TargetTeammate 4 $$ +trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$ +Power_Exec Distribute_Shields$$"
+| Tray 3 - Default
+Alt+1 "+STOTrayExecByTray 2 0"
+Alt+2 "+STOTrayExecByTray 2 1"
+Alt+3 "+STOTrayExecByTray 2 2"
+Alt+4 "+STOTrayExecByTray 2 3"
+Alt+5 "+STOTrayExecByTray 2 4"
+Alt+6 "+STOTrayExecByTray 2 5"
+Alt+7 "+STOTrayExecByTray 2 6"
+Alt+8 "+STOTrayExecByTray 2 7"
+Alt+9 "+STOTrayExecByTray 2 8"
+Alt+0 "+STOTrayExecByTray 2 9"
+
+| Tray 4 - Default
+Shift+1 "+STOTrayExecByTray 3 0"
+Shift+2 "+STOTrayExecByTray 3 1"
+Shift+3 "+STOTrayExecByTray 3 2"
+Shift+4 "+STOTrayExecByTray 3 3"
+Shift+5 "+STOTrayExecByTray 3 4"
+Shift+6 "+STOTrayExecByTray 3 5"
+Shift+7 "+STOTrayExecByTray 3 6"
+Shift+8 "+STOTrayExecByTray 3 7"
+Shift+9 "+STOTrayExecByTray 3 8"
+Shift+0 "+STOTrayExecByTray 3 9"
+
+| Tray 5
+| Tray 6
+| Tray 7 (default tray for spacebar spam)
+Ctrl+Space "+STOTrayExecByTray 6 0 $$ +STOTrayExecByTray 6 1 $$ +STOTrayExecByTray 6 2 $$ +STOTrayExecByTray 6 3 $$ +STOTrayExecByTray 6 4 $$ +STOTrayExecByTray 6 5 $$ +STOTrayExecByTray 6 6 $$ +STOTrayExecByTray 6 7 $$ +STOTrayExecByTray 6 8 $$ +STOTrayExecByTray 6 9 $$ +STOTrayExecByTray 6 9 $$ +STOTrayExecByTray 6 8 $$ +STOTrayExecByTray 6 7 $$ +STOTrayExecByTray 6 6 $$ +STOTrayExecByTray 6 5 $$ +STOTrayExecByTray 6 4 $$ +STOTrayExecByTray 6 3 $$ +STOTrayExecByTray 6 2 $$ +STOTrayExecByTray 6 1 $$ +STOTrayExecByTray 6 0 $$"
+
+| Tray 8 (Heal Tray, used for Team Heals)
+Shift+Space "+trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$"
+
+| Tray 9
+| Tray 10
+
+| Ally heals
+F2 "TargetTeammate 1 $$ +trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$"
+F3 "TargetTeammate 2 $$ +trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$"
+F4 "TargetTeammate 3 $$ +trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$"
+F5 "TargetTeammate 4 $$ +trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$"
 
 | teamchat have heals
 Shift+F1 "team got any heals?"
@@ -15,15 +70,16 @@ Shift+F3 "TargetTeammate 2 $$ Team $target, Here have some heals!"
 Shift+F4 "TargetTeammate 3 $$ Team $target, Here have some heals!"
 Shift+F5 "TargetTeammate 4 $$ Team $target, Here have some heals!"
 
+| Multiply "GenSendMessage Inventory_Salvage_Root dialogok $$ Bagsort 2 1"
 Multiply "GenSendMessage Inventory_Stackdelete_Root dialogok $$ Bagsort 2 1"
 
 | teamchat kill this
-` "Team My current target: $target. Destroy with prejudice // Mein aktuelles Ziel: $target. Mit Vorurteilen zu zerstören"
+` "Team My current target: $target. Destroy with prejudice"
 
 Shift+x "+walk" ""
 
 | recruit message
-Y "tell @cababs91, Shift+Y UNFOUND recruit message"
+Y "playersay, Shift+Y UNFOUND recruit message"
 Shift+Y "zone Come and join us at UNFOUND. Sure the FED (Unfound) faction has Tier 5 in the following holdings: Starbase, Spire, Research Lab, K-13, Embassy, Dilithium Mine & Tier 3 Colony World and our KDF faction (House of Unfound) only has Teir 3 Starbase, Tier 1 in the following holdings: Spire, Embassy & Dilthium Mine, but we also have a TeamSpeak3, Discord, website, psyche shattering profanity, wanton chaos and actual fun... UNFOUND.NET"
 
 T "" ""
